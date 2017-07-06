@@ -3,17 +3,17 @@
 
 def add(num1, num2):
     """Return the sum of the two input integers."""
-    return num1 + num2
+    return int(num1 + num2)
 
 
 def subtract(num1, num2):
     """Return the second number subtracted from the first."""
-    return num1 - num2
+    return int(num1 - num2)
 
 
 def multiply(num1, num2):
     """Multiply the two inputs together."""
-    return num1 * num2
+    return int(num1 * num2)
 
 
 def divide(num1, num2):
@@ -23,11 +23,12 @@ def divide(num1, num2):
 
 def square(num1):
     """Return the square of the input."""
-    return num1 * num1
+    return int(num1 * num1)
 
 
 def cube(num1):
     """Return the cube of the input."""
+    return int(num1 ** 3)
 
 
 def power(num1, num2):
